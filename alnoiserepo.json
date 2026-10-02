@@ -1,5 +1,6 @@
 {
   "name": "alnoise's AltStore Repo",
+  "iconURL": "https://sidestore.io/assets/icon.png",
   "identifier": "me.alnoise.altstore",
   "apps": [
     {
