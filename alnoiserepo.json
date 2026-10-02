@@ -1,6 +1,6 @@
 {
   "name": "alnoise's AltStore Repo",
-  "iconURL": "https://sidestore.io/assets/icon.png",
+  "iconURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/assets/icons/flytrapalt.jpg",
   "identifier": "me.alnoise.altstore",
   "apps": [
     {
@@ -8,8 +8,8 @@
       "bundleIdentifier": "com.google.ios.youtube.app",
       "developerName": "itzzace",
       "subtitle": "An open-source YouTube enhancement for iOS.",
-      "localizedDescription": "An open-source YouTube enhancement for iOS. \n\nVersion: v1.1.1 \nMade by: itzzace",
-      "iconURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/icons/youtube.png",
+      "localizedDescription": "An open-source YouTube enhancement for iOS. \n\nVersion: v1.1.1 \nCreator: itzzace",
+      "iconURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/assets/icons/youtube.png",
       "tintColor": "41cdff",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/settings.png",
@@ -22,7 +22,7 @@
         {
           "version": "1.1.1",
           "date": "2026-09-29T22:00:00.0000000Z",
-          "localizedDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nPlease update DolphiniOS to version 3.2.1 before attempting to use it on iOS 16.",
+          "localizedDescription": "What's new: \n- Updated to YouTube 21.39.4 \n- Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups \n- Liquid Glass settings page with a toggle for each part \n- Selected Tab Color for the tab text or the text and icon \n- Added HLS mode in Playback Fix \n- Added 5x speed in the speed menu \n- Improved native share sheet \n\nFixed: \n- Multiple scrubber dots on feed videos with a custom scrubber \n- Direct downloads using an outdated client",
           "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
           "size": 1860000,
           "minOSVersion": "17.0",
@@ -31,7 +31,37 @@
       ],
       "version": "1.1.1",
       "versionDate": "2026-09-29T22:00:00.0000000Z",
-      "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nPlease update DolphiniOS to version 3.2.1 before attempting to use it on iOS 16.",
+      "versionDescription": "What's new: \n- Updated to YouTube 21.39.4 \n- Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups \n- Liquid Glass settings page with a toggle for each part \n- Selected Tab Color for the tab text or the text and icon \n- Added HLS mode in Playback Fix \n- Added 5x speed in the speed menu \n- Improved native share sheet \n\nFixed: \n- Multiple scrubber dots on feed videos with a custom scrubber \n- Direct downloads using an outdated client",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
+      "size": 1860000
+    },
+    {
+      "name": "TwitchAdBlock",
+      "bundleIdentifier": "tv.twitch.app",
+      "developerName": "level3tjg, gunnerkidBT",
+      "subtitle": "A modified Twitch iOS app that blocks ads and adds some handy extras.",
+      "localizedDescription": "Blocks ads \n- Skips the unskippable pre-roll ads before live streams and recorded videos (VODs) by routing through an ad-free-country proxy. \n- Clears ad banners and prompts out of the feeds — brand offers, the buy Bits prompt, sponsor spots, and the Following-tab Go Ad-Free Turbo button. \n- Works out of the box with a built-in proxy, or you can add your own (including a list of backups it tries in order). \n- Skips the proxy automatically if you already have a subscription or Turbo — you're already ad-free, and it keeps your account details private. \n\nChat Emotes \n- Shows 7TV, BetterTTV, and FrankerFaceZ emotes right in chat, both global and per-channel. \n- A Reload Emotes button to refresh them if a streamer adds new ones while you're watching. \n\nMake the app yours \n- Keep Live Feed Playing — stops the Live feed cutting a stream off and forcing you to tap Watch or Follow. \n- Pick your launch screen — open straight to Following, Live, Clips, Browse, and more, instead of Twitch's default. \n- Hide Twitch Stories — removes the Stories bar at the top of the Home tab. \n- Clearer settings — a short description under each option, grouped under headings. \n\nExtras \n- Back up & restore all your settings to a file (handy when you reinstall). \n- Diagnostics screen — a quick green/red check that everything still works after a Twitch update. \n\nVersion: 30.7 (v0.1.13) \nAuthor: level3tjg, gunnerkidBT",
+      "iconURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/icons/youtube.png",
+      "tintColor": "41cdff",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/assets/screenshots/twitchadblocksettings.png",
+        "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/assets/screenshots/twitchadblocksettings2.png"
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "0.1.13",
+          "date": "2026-09-29T22:00:00.0000000Z",
+          "localizedDescription": "New in v0.1.13 \nCasting & AirPlay now work with ad-blocking on. Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show offline. The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream on the TV still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.) \n\nEverything else (v0.1.12) \nBlocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the Go Ad-Free Turbo button)",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+          "size": 1860000,
+          "minOSVersion": "17.0",
+          "maxOSVersion": "99.0"
+        }
+      ],
+      "version": "0.1.13",
+      "versionDate": "2026-09-29T22:00:00.0000000Z",
+      "versionDescription": "New in v0.1.13 \nCasting & AirPlay now work with ad-blocking on. Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show offline. The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV — and your phone goes right back to blocking ads the moment you stop. (The stream on the TV still shows ads — the TV fetches the video itself, so that can't be blocked — but your phone stays ad-free.) \n\nEverything else (v0.1.12) \nBlocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the Go Ad-Free Turbo button)",
       "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
       "size": 1860000
     },
@@ -51,7 +81,7 @@
         {
           "version": "0.3.7",
           "date": "2026-09-29T22:00:00.0000000Z",
-          "localizedDescription": "New features and bug fixes.",
+          "localizedDescription": "New \n- The Google Photos app now counts what this app backs up. (#24, thanks @saileshbro) Uploads showed as not backed up in the Google Photos app, and its own Free up space never offered them. It now recognises them, and its Free up space and Delete from device remove the photos from your iPhone. On one library of about 8,500 items, Not backed up went from 8,145 to 0 and Free up space from 2 items to 461. \n\nThe reason was the version being uploaded. The Google Photos app only counts a photo it can match to the one on your iPhone, so an edited photo or video now backs up as it looks, not as its unedited original. A photo you edited in the Google Photos app also needs the version that edit was applied on, which is uploaded in an extra step. \n\n- Back Up Live Photo Motion. Off by default. With it on, a Live Photo's motion is attached to the still already in your account, so it plays as a Live Photo and Free up space will offer it. Live Photos backed up earlier get their motion added as a backlog — this can be tens of GB, which is why it is a setting you turn on. \n\n- Backup keeps going after you leave the app (iOS 26). While the app is open with work to do, iOS is asked to keep it running; progress then shows in a Live Activity, where you can also stop it. Up to 2 uploads run at once in the background. On earlier iOS versions nothing changes. \n\nFixed \nAutomatic Backup never ran in the background on SideStore installs. This affected every sideloaded install and was not new in this release. SideStore renames the app when it signs it, so the background task the app registered no longer matched the one it declared, and iOS refused it — meaning Automatic Backup never got a background window at all. The app now reads the name from its own build. \n- Google's rate limit no longer fails a row. When Google asked the app to slow down (HTTP 429), rows retried a second apart, met the same refusal, and failed. The whole queue now waits it out — a minute, doubling up to ten while Google keeps refusing — and carries on. \n- Items marked Cancelled with no reason. If the app was interrupted part way through an item, that row was marked Cancelled and left with nothing to explain it and nothing to retry it, which is why the same photo could appear as both Cancelled and Already backed up. An interruption now retries, and if it keeps happening it says what went wrong. Cancelled now only ever means you stopped it, and reads Stopped by you. \n- The activity list got faster on big backups. As each item finished, the app was asking the photo library about it twice on the same thread that draws the list. It asks once now. \n- Photos deleted while still queued. Freeing space on your iPhone deletes photos that may still be waiting to upload. Those rows are dropped quietly instead of failing with no longer in your photo library — about 2,000 rows had failed that way on one library. \n- Hand-picked photos are re-checked even when the app already remembers them as backed up.",
           "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.7/PhotosBackup.ipa",
           "size": 1860000,
           "minOSVersion": "17.0",
@@ -60,7 +90,7 @@
       ],
       "version": "0.3.7",
       "versionDate": "2026-09-29T22:00:00.0000000Z",
-      "versionDescription": "New features and bug fixes.",
+      "versionDescription": "New \n- The Google Photos app now counts what this app backs up. (#24, thanks @saileshbro) Uploads showed as not backed up in the Google Photos app, and its own Free up space never offered them. It now recognises them, and its Free up space and Delete from device remove the photos from your iPhone. On one library of about 8,500 items, Not backed up went from 8,145 to 0 and Free up space from 2 items to 461. \n\nThe reason was the version being uploaded. The Google Photos app only counts a photo it can match to the one on your iPhone, so an edited photo or video now backs up as it looks, not as its unedited original. A photo you edited in the Google Photos app also needs the version that edit was applied on, which is uploaded in an extra step. \n\n- Back Up Live Photo Motion. Off by default. With it on, a Live Photo's motion is attached to the still already in your account, so it plays as a Live Photo and Free up space will offer it. Live Photos backed up earlier get their motion added as a backlog — this can be tens of GB, which is why it is a setting you turn on. \n\n- Backup keeps going after you leave the app (iOS 26). While the app is open with work to do, iOS is asked to keep it running; progress then shows in a Live Activity, where you can also stop it. Up to 2 uploads run at once in the background. On earlier iOS versions nothing changes. \n\nFixed \nAutomatic Backup never ran in the background on SideStore installs. This affected every sideloaded install and was not new in this release. SideStore renames the app when it signs it, so the background task the app registered no longer matched the one it declared, and iOS refused it — meaning Automatic Backup never got a background window at all. The app now reads the name from its own build. \n- Google's rate limit no longer fails a row. When Google asked the app to slow down (HTTP 429), rows retried a second apart, met the same refusal, and failed. The whole queue now waits it out — a minute, doubling up to ten while Google keeps refusing — and carries on. \n- Items marked Cancelled with no reason. If the app was interrupted part way through an item, that row was marked Cancelled and left with nothing to explain it and nothing to retry it, which is why the same photo could appear as both Cancelled and Already backed up. An interruption now retries, and if it keeps happening it says what went wrong. Cancelled now only ever means you stopped it, and reads Stopped by you. \n- The activity list got faster on big backups. As each item finished, the app was asking the photo library about it twice on the same thread that draws the list. It asks once now. \n- Photos deleted while still queued. Freeing space on your iPhone deletes photos that may still be waiting to upload. Those rows are dropped quietly instead of failing with no longer in your photo library — about 2,000 rows had failed that way on one library. \n- Hand-picked photos are re-checked even when the app already remembers them as backed up.",
       "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.7/PhotosBackup.ipa",
       "size": 1860000
     },
