@@ -1,0 +1,50 @@
+{
+  "name": "alnoise's AltStore Source",
+  "identifier": "me.alnoise.altstore",
+  "apps": [
+    {
+      "name": "YTKACE",
+      "bundleIdentifier": "com.google.ios.youtube.app",
+      "developerName": "itzzace",
+      "subtitle": "An open-source YouTube enhancement for iOS.",
+      "localizedDescription": "An open-source YouTube enhancement for iOS. \n\nVersion: v1.1.1 \nMade by: itzzace",
+      "iconURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/icons/youtube.png",
+      "tintColor": "41cdff",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/settings.png",
+        "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/video-download-menu.png",
+        "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/glass-menu.png",
+        "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/glass-download.png"
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "1.1.1",
+          "date": "2026-09-29T22:00:00.0000000Z",
+          "localizedDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nPlease update DolphiniOS to version 3.2.1 before attempting to use it on iOS 16.",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
+          "size": 1860000,
+          "minOSVersion": "17.0",
+          "maxOSVersion": "99.0"
+        }
+      ],
+      "version": "1.1.1",
+      "versionDate": "2026-09-29T22:00:00.0000000Z",
+      "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nPlease update DolphiniOS to version 3.2.1 before attempting to use it on iOS 16.",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
+      "size": 1860000
+    }
+  ],
+  "news": [
+    {
+      "title": "Testing this SideStore repo with YTKACE =)",
+      "identifier": "original-repo-release-ytkace-1.1.1",
+      "caption": "Yay! A place to store all my IPAs!",
+      "date": "2026-10-26T00:00:00.0000000Z",
+      "tintColor": "0074f8",
+      "imageURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/icons/youtube.png",
+      "url": "https://sidestore.io/",
+      "notify": false
+    }
+  ]
+}
