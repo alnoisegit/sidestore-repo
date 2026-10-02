@@ -98,7 +98,7 @@
     {
       "name": "PAX",
       "bundleIdentifier": "com.paxlabs.paxvapor",
-      "developerName": "alnoise",
+      "developerName": "PaxLabs",
       "subtitle": "PAX Vapor App for iOS",
       "localizedDescription": "PAX Decrypted IPA. This is the last version before they removed it from the app store. The app lets you fine tune temperature, control lighting, and play minigames on supported devices. \n\nThis version of the app supports the PAX 3 and the PAX Era.",
       "iconURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/assets/icons/paxicon.jpg",
@@ -133,7 +133,7 @@
       "caption": "Finally, a place to store all my IPAs!",
       "date": "2026-10-26T00:00:00.0000000Z",
       "tintColor": "0074f8",
-      "imageURL": "https://raw.githubusercontent.com/SideStore/assets/refs/heads/main/icons/classic/Default.png",
+      "imageURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/assets/icons/flytrapalt.jpg",
       "url": "https://sidestore.io/",
       "notify": false
     }
