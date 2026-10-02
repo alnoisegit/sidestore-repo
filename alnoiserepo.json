@@ -1,5 +1,5 @@
 {
-  "name": "alnoise's AltStore Source",
+  "name": "alnoise's AltStore Repo",
   "identifier": "me.alnoise.altstore",
   "apps": [
     {
@@ -37,12 +37,12 @@
   ],
   "news": [
     {
-      "title": "Testing this SideStore repo with YTKACE =)",
+      "title": "A collection of useful apps I use on my device.",
       "identifier": "original-repo-release-ytkace-1.1.1",
       "caption": "Yay! A place to store all my IPAs!",
       "date": "2026-10-26T00:00:00.0000000Z",
       "tintColor": "0074f8",
-      "imageURL": "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/icons/youtube.png",
+      "imageURL": "https://raw.githubusercontent.com/SideStore/assets/refs/heads/main/icons/classic/Default.png",
       "url": "https://sidestore.io/",
       "notify": false
     }
