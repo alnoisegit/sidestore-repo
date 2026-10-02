@@ -33,7 +33,36 @@
       "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nPlease update DolphiniOS to version 3.2.1 before attempting to use it on iOS 16.",
       "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
       "size": 1860000
-    }
+    },
+    {
+      "name": "Photos Backup",
+      "bundleIdentifier": "com.g8row.photosbackup.background-backup",
+      "developerName": "g8row",
+      "subtitle": "Photos Backup for iOS.",
+      "localizedDescription": "An experimental, fully on-device iPhone app for backing up selected photos, videos, and albums to Google Photos. It is a single SwiftUI app that completes Google account setup in an in-app web view, so everything happens on the phone without a desktop companion or hosted service.",
+      "iconURL": "https://raw.githubusercontent.com/g8row/PhotosBackup/main/App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "41cdff",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/alnoisegit/sidestore-repo/refs/heads/main/icons/photos-backup.png"
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "0.3.7",
+          "date": "2026-09-29T22:00:00.0000000Z",
+          "localizedDescription": "New features and bug fixes.",
+          "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.7/PhotosBackup.ipa",
+          "size": 1860000,
+          "minOSVersion": "17.0",
+          "maxOSVersion": "99.0"
+        }
+      ],
+      "version": "0.3.7",
+      "versionDate": "2026-09-29T22:00:00.0000000Z",
+      "versionDescription": "New features and bug fixes.",
+      "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.7/PhotosBackup.ipa",
+      "size": 1860000
+    },
   ],
   "news": [
     {
